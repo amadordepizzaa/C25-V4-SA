@@ -13,21 +13,6 @@ class Ground
   }
   
 
-  show() {
-    var pos = this.body.position;
-    Matter.Body.rotate(this.body,angle)
-
-    push();
-    rectMode(CENTER);
-    stroke(255);
-    fill(127);
-
-    translate(pos.x,pos.y);
-   rotate(angle);
-   rect(0, 0, this.w, this.h);
-    pop();
-    angle +=0.1;
-
-  }
+ 
    
 }
